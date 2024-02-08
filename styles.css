@@ -1,0 +1,110 @@
+body{
+    font-family: "Poppins", sans-serif;
+    background-color:rgb(36, 13, 13);
+
+}
+
+nav{
+    display:contents;
+}
+
+h3{
+    font-size:1.6em;
+    margin:1rem 0 1rem 2.2rem;
+    color:rgb(126, 126, 82);
+}
+
+ #hi{
+    padding-top:1em;
+}
+
+h1{
+    font-size:50px;
+    margin-left:2em;
+    color:#085259;
+}
+
+button{
+    height:32px;
+    width:6em;
+    font-size:1.1em;
+    border-radius:6px;
+    margin-left: 5.6em;
+}
+
+/*CHANGE ALL THE ICONS TO BE SAME SIZE*/
+#links img{
+    margin-top:30px;
+    margin-left:5px;
+    height:5%;
+    width:5%;
+}
+#links{
+    margin-left:6em;
+   
+}
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#292121;
+    height:4em;
+    position:-webkit-sticky;
+    position:sticky;
+    top:0;
+}
+ul{
+    margin-right:4rem;
+    display:flex;
+    list-style: none;
+    justify-content:space-between;
+    color:rgb(126, 126, 82);
+}
+
+li{
+    padding:0.4em;
+    font:4px, bold;
+    font-weight: 700;
+}
+
+.container .bio{
+    margin:auto;
+    background-color:#787e40;
+    height:37em;
+    display:flex;
+    opacity:89%
+}
+
+.container .bio .cont{
+    flex:1;
+    padding:6px;
+}
+
+.container .bio .img{
+    flex:1;
+    padding:2px;
+}
+
+.container .bio #pic{
+    height: 100%;
+    width:40em;
+}
+
+.container .about{
+    background-color: #535733;
+    height:40.5em;
+    opacity:100%
+    
+  
+}
+
+.container .skills{
+    background-color: #676837;;
+    height: 27em;
+    opacity:89%;
+}
+.container .education{
+    background-color:#505a2a;
+    height: 27em;
+    opacity:89%;
+}
