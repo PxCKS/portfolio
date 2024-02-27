@@ -1,37 +1,12 @@
 body{
+    /*Find a different shade of the backrgound, because this one is puttiing strain on the eyes*/
     font-family: "Poppins", sans-serif;
-    background-color:antiquewhite;
-
-}
-
-h3{
-    font-size:1.6em;
-    margin:1rem 0 1rem 2.2rem;
-}
-
- #hi{
-    padding-top:1em;
-}
-
-h1{
-    font-size:50px;
-    margin-left:2em;
-}
-
-button{
-    height:32px;
-    width:6em;
-    font-size:1.1em;
-    border-radius:6px;
-    margin-left: 5.6em;
-}
-
-/*CHANGE ALL THE ICONS TO BE SAME SIZE*/
-
-#links{
-    margin-left:6em;
+    background-color:#F7F7F7;
    
+
 }
+
+
 .header{
     display:flex;
     align-items: center;
@@ -41,7 +16,12 @@ button{
     position:-webkit-sticky;
     position:sticky;
     top:0;
-    opacity:76%;
+    opacity:initial;
+}
+
+.header:window-inactive{
+    position:relative;
+    top:-5;
 }
 ul{
     margin-right:4rem;
@@ -57,3 +37,85 @@ li{
     font-weight: 700;
 }
 
+.home{
+    height:585px;
+    width:70%;
+    display:flex;
+    flex-direction:column;
+    position:relative;
+    align-items:center;
+    left:15em;
+    top:10em;
+}
+#intro{
+    font-size: 3em;
+    margin:0;
+    
+}
+
+.occupation{
+    font-size: 18px;
+    font-weight:bold;
+    position:relative;
+    left:18px;
+}
+
+.city{
+    font-size:18px;
+    position:relative;
+    left:12px;
+    
+}
+
+#img-shrink{
+    height:35px;
+    width:35px;
+    padding-bottom:2px;
+}
+h3{
+    font-size:1.6em;
+    margin:1rem 0 1rem 2.2rem;
+}
+h2{
+    position:relative;
+    left:75px;
+}
+.social{
+    height:8em;
+    width:20em;
+    border-radius:10px;
+    position:relative;
+    left:1em;
+    top:2.5em;
+
+}
+
+.social:hover{
+    background-color:grey;
+    border:5px solid grey;
+}
+img{
+    height:40px;
+    width:40px;
+    position:relative;
+    
+    left:3.6em;
+}
+
+img:hover{
+    background-color:white;
+}
+
+.about{
+    height:42em;
+    width:99%;
+    background-color:blue;
+    position:relative;
+    opacity:50%;
+    border-radius:10px;
+
+}
+
+.about-intro{
+    
+}
